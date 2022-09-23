@@ -1,6 +1,6 @@
 package editor;
 
-public class printShape {
+public class PrintShape {
     public void print(Shape a){
         System.out.println(a.nameShape);
     }
