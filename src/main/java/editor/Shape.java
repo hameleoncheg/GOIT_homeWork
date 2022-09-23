@@ -10,10 +10,10 @@ public abstract class Shape {
         this.nameShape = nameShape;
 
     }
-    public String getNameShape() {
+    public String getSizeShape() {
         return nameShape;
     }
-    public void setNameShape(String nameShape) {
+    public void setSizeShape(String nameShape) {
         this.nameShape = nameShape;
     }
     public String getColorShape() {

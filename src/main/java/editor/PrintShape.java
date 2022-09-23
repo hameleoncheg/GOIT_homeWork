@@ -1,7 +1,7 @@
 package editor;
 
 public class PrintShape {
-    public void print(Shape a){
+    public void printed(Shape a){
         System.out.println(a.nameShape);
     }
 }
