@@ -3,8 +3,8 @@ package editor;
 public class Triangle extends Shape{
 
     final private String TYPE_SHAPE = "Triangle";
-    public Triangle(String colorShape, String sizeShape) {
-        super(colorShape, sizeShape);
+    public Triangle(String colorShape, String nameShape) {
+        super(colorShape, nameShape);
     }
 
     @Override
