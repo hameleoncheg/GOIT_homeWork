@@ -10,8 +10,8 @@ public  class EditorTest {
         Shape shape = new Quad("Blue","Quad");
         System.out.println(shape.getShapeType() + " is " + shape.colorShape);
 
-        printShape print = new printShape();
-        print.printed(shape);
+        PrintShape print = new PrintShape();
+        print.print(shape);
 
     }
 }
