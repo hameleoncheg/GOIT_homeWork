@@ -1,3 +1,5 @@
+package lesson7;
+
 class PunctuationMarkCounterTest {
     public static void main(String[] args) {
         PunctuationMarkCounter counter = new PunctuationMarkCounter();

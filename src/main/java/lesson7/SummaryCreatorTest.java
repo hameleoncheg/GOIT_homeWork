@@ -1,8 +1,6 @@
-    import javax.sound.midi.Soundbank;
-    import java.util.Arrays;
-    import java.util.SortedMap;
+package lesson7;
 
-    class SummaryCreatorTest {
+class SummaryCreatorTest {
         public static void main(String[] args) {
             SummaryCreator summaryCreator = new SummaryCreator();
 

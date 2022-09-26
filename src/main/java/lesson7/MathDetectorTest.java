@@ -1,4 +1,5 @@
-import java.lang.reflect.Array;
+package lesson7;
+
 import java.util.Arrays;
 
 class MathDetectorTest {

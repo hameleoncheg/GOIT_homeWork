@@ -1,3 +1,5 @@
+package lesson7;
+
 class PalindromeDetector {
     public boolean isPalindrome(String word) {
         return word.equalsIgnoreCase(reverse(word));

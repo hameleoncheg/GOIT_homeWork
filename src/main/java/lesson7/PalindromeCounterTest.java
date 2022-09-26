@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package lesson7;
 
 class PalindromeCounterTest {
     public static void main(String[] args) {

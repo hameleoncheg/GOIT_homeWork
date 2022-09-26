@@ -1,3 +1,5 @@
+package lesson7;
+
 class GooQueryTest {
     public static void main(String[] args) {
         GooQuery query = new GooQuery("en", "capital");

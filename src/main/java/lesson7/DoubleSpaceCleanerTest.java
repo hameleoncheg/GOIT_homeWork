@@ -1,3 +1,5 @@
+package lesson7;
+
 class DoubleSpaceCleanerTest {
     public static void main(String[] args) {
         DoubleSpaceCleaner cleaner = new DoubleSpaceCleaner();

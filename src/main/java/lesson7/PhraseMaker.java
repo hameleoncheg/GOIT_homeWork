@@ -1,5 +1,4 @@
-import java.util.Arrays;
-import java.util.SplittableRandom;
+package lesson7;
 
 class PhraseMaker {
     public String join(String[] words) {

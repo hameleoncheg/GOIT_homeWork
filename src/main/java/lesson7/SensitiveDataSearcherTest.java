@@ -1,4 +1,6 @@
-    class SensitiveDataSearcherTest {
+package lesson7;
+
+class SensitiveDataSearcherTest {
         public static void main(String[] args) {
             SensitiveDataSearcher searcher = new SensitiveDataSearcher();
 

@@ -1,3 +1,5 @@
+package lesson7;
+
 class GooWordStatTest {
     public static void main(String[] args) {
         //Word is [human], search freq is LOW

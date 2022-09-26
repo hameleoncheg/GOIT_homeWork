@@ -1,3 +1,5 @@
+package lesson7;
+
 class NameParser {
     public String parse(String[] names) {
 

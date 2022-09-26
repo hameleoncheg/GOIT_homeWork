@@ -1,3 +1,5 @@
+package lesson7;
+
 class ObjectWorker {
     public String join(Object[] objects) {
 

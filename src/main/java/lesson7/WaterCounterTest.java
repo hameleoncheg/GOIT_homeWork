@@ -1,4 +1,4 @@
-import java.util.Arrays;
+package lesson7;
 
 class WaterCounterTest {
     public static void main(String[] args) {

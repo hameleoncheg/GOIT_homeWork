@@ -1,3 +1,5 @@
+package lesson7;
+
 import java.nio.charset.Charset;
 
 class StringByteWorkerTest {

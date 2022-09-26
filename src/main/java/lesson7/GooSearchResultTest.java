@@ -1,3 +1,4 @@
+package lesson7;
 
 class GooSearchResultTest {
     public static void main(String[] args) {

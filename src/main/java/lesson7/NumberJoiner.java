@@ -1,3 +1,5 @@
+package lesson7;
+
 class NumberJoiner {
     public String join(int[] numbers) {
         StringBuilder result = new StringBuilder();
