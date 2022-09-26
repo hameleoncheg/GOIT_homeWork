@@ -14,7 +14,7 @@ public class MyArrayList<E> {
     public void add(int index, E element) {
         if(pointer == array.length-1)
             resize(array.length*2);
-        Object[] arrayDestination = new Object[array.length*2];
+        Object[] arrayDestination = new Object[array.length];
         System.arraycopy(array, 0, arrayDestination, 0, index);
         arrayDestination[index] = element;
         System.arraycopy(array, index, arrayDestination, index+1, (array.length -1)-index);
