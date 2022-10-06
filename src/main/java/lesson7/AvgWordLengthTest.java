@@ -1,5 +1,7 @@
 package lesson7;
 
+import java.util.Arrays;
+
 class AvgWordLengthTest {
     public static void main(String[] args) {
         //6
@@ -17,6 +19,7 @@ class AvgWordLength{
             sum+= b[i].length();
         }
         double fin = sum / b.length;
+
         return fin;
     }
 }
