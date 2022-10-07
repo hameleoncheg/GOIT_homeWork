@@ -1,14 +1,14 @@
-package MyQueue;
+package MyStack;
 
 import java.util.Arrays;
 
-public class MyQueue {
+public class MyStack {
 
     private Object data[];
 
     private int index = 0;
 
-    public MyQueue() {
+    public MyStack() {
         data = new Object[1];
     }
 
@@ -16,21 +16,21 @@ public class MyQueue {
         return index == 0;
     }
 
-    public void add(Object obj)  {
+    public void push(Object obj)  {
         if(index == 0){
             data[0] = obj;
         }
         if (index >= 1){
             Object[] destArray = Arrays.copyOf(data, data.length +1);
-           destArray[index] = obj;
+            destArray[index] = obj;
             data = destArray;
         }
         index++;
     }
-    public Object poll() {
-        Object poll = data[0];
+    public Object pop() {
+        Object poll = data[data.length-1];
         Object[] destArray = new Object[data.length - 1];
-        System.arraycopy(data, 1, destArray, 0,data.length-1);
+        System.arraycopy(data, 0, destArray, 0,data.length-2);
         data = destArray;
         return poll;
     }
@@ -45,7 +45,7 @@ public class MyQueue {
         data = new Object[1];
     }
     public Object peek(){
-        return data[0];
+        return data[data.length-1];
     }
     public Object size(){
         return data.length;
