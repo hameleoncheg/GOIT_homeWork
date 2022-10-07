@@ -11,6 +11,8 @@ public class MyQueueTest {
         Queue.add("5");
 
         System.out.println(Queue);
+        Queue.remove(3);
+        System.out.println(Queue);
 
     }
 }

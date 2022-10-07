@@ -12,10 +12,6 @@ public class MyStack {
         data = new Object[1];
     }
 
-    public boolean isEmpty() {
-        return index == 0;
-    }
-
     public void push(Object obj)  {
         if(index == 0){
             data[0] = obj;
@@ -30,7 +26,7 @@ public class MyStack {
     public Object pop() {
         Object poll = data[data.length-1];
         Object[] destArray = new Object[data.length - 1];
-        System.arraycopy(data, 0, destArray, 0,data.length-2);
+        System.arraycopy(data, 0, destArray, 0,data.length-1);
         data = destArray;
         return poll;
     }

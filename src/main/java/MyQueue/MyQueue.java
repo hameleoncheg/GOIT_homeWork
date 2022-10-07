@@ -12,9 +12,6 @@ public class MyQueue {
         data = new Object[1];
     }
 
-    public boolean isEmpty() {
-        return index == 0;
-    }
 
     public void add(Object obj)  {
         if(index == 0){
