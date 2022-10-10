@@ -5,10 +5,14 @@ import java.util.List;
 
 public class MyLinkedTest {
     public static void main(String[] args) {
-      //  List<String> list = new MyLinkedList<>();
-        List<String> list2 = new LinkedList<>();
-    //    list.add(0,"Ivan");
-     //   list.add(1,"Alex");
+        MyLinkedList<String> list = new MyLinkedList<String>();
+        list.add("1");
+        list.add("второй");
+        list.add("третий");
+        System.out.println("list.size() = " + list.size());
+        System.out.println("list.get(2) = " + list.get(2));
+        list.remove(2);
+        System.out.println("list.size() = " + list.size());
     }
 
 }

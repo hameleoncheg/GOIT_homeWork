@@ -12,7 +12,7 @@ public class MyStackTest {
         Stack.push("Пятый");
 
         System.out.println(Stack);
-        System.out.println(Stack.peek());
+        System.out.println("Stack.peek() = " + Stack.peek());
         System.out.println(Stack);
     }
 }
