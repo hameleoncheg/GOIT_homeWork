@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.util.*;
 
 
-public class CountWords {
+    public class CountWords {
     public static void main(String[] args) throws IOException {
         String fileName = "/Users/hameleoncheg/Documents/word.txt";
         myFileReader(fileName);
